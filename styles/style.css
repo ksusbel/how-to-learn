@@ -30,7 +30,7 @@ a, p, h1, h2, h3, h4, span {
   min-height: 600px;
   max-height: 756px;
   position: relative;
-  background-color:  #f2f2f2;
+  background-color: #f2f2f2;
   margin: 0;
   /* выше установили ограничения для секции */
 }
@@ -59,7 +59,7 @@ a, p, h1, h2, h3, h4, span {
   min-height: 762px;
   text-align: center;
   position: relative;
-  background-color:  #f2f2f2;
+  background-color: #f2f2f2;
   padding: 100px 0 0 0;
   margin: 0;
 }
@@ -91,12 +91,12 @@ a, p, h1, h2, h3, h4, span {
   z-index: 2;
 }
 
-.header__h1 {	
+.header__h1 {
   margin: 0 0 0 64px;
   text-align: left;
   line-height: 96px;
   font-size: 102px;
-  font-weight: 600;  
+  font-weight: 600;
 }
 
 .header__subtitle {
@@ -104,13 +104,13 @@ a, p, h1, h2, h3, h4, span {
   position: absolute;
   bottom: 30px;
   left: 64px;
-  z-index: 2;	
+  z-index: 2;
 }
 
-.header__h2 {	
+.header__h2 {
   line-height: 25px;
   font-size: 18px;
-  font-weight: normal;  
+  font-weight: normal;
 }
 
 .header__main-illustration {
@@ -123,7 +123,7 @@ a, p, h1, h2, h3, h4, span {
   background-image: url(../images/header-image.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: right;  
+  background-position: right;
 }
 
 .header__square-pic {
@@ -133,12 +133,12 @@ a, p, h1, h2, h3, h4, span {
   position: absolute;
   top: 64px;
   right: 0;
-  z-index: 0;  
+  z-index: 0;
 }
 
-.header__link {  
+.header__link {
   color:#2f80ed;
-  font-size: 18px;  
+  font-size: 18px;
 }
 
 .two-columns {
@@ -183,7 +183,7 @@ a, p, h1, h2, h3, h4, span {
   width: 1100px;
 }
 
-.table__two {  
+.table__two {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -314,7 +314,7 @@ a, p, h1, h2, h3, h4, span {
 .table__cell_theme_dark {
   width: 200px;
   margin-right: 0;
-  margin-top: 80px;  
+  margin-top: 80px;
 }
 
 .header_flex {
