@@ -37,18 +37,18 @@ a, p, h1, h2, h3, h4, span {
 
 .description {
   display: flex;
-	flex-direction: column;
+  flex-direction: column;
   align-items: center;
-	justify-content: flex-start;
+  justify-content: flex-start;
   margin: 100px 0 0 0;
 }
 
 .digits {
   margin: 100px 0;
   display: flex;
-	flex-direction: column;
+  flex-direction: column;
   align-items: center;
-	justify-content: flex-start;
+  justify-content: flex-start;
 }
 
 .feynmen {
@@ -67,9 +67,9 @@ a, p, h1, h2, h3, h4, span {
 .kaufmen {
   margin: 0;
   display: flex;
-	flex-direction: column;
+  flex-direction: column;
   align-items: center;
-	justify-content: space-between;  
+  justify-content: space-between;  
   padding: 90px 0;
   position: relative;
   overflow: hidden;
@@ -78,8 +78,8 @@ a, p, h1, h2, h3, h4, span {
 .footer {
   margin: 0;
   display: flex;
-	flex-direction: row;
-	justify-content: center;
+  flex-direction: row;
+  justify-content: center;
   background-color: #1f1f1f;
   padding: 60px 0 40px 0;
   min-height: 350px;
@@ -87,12 +87,12 @@ a, p, h1, h2, h3, h4, span {
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__title {
-	width: 730px;
+  width: 730px;
   z-index: 2;
 }
 
 .header__h1 {	
-	margin: 0 0 0 64px;
+  margin: 0 0 0 64px;
   text-align: left;
   line-height: 96px;
   font-size: 102px;
@@ -100,11 +100,11 @@ a, p, h1, h2, h3, h4, span {
 }
 
 .header__subtitle {
-	width: 388px;
-	position: absolute;
-	bottom: 30px;
-	left: 64px;
-	z-index: 2;	
+  width: 388px;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  z-index: 2;	
 }
 
 .header__h2 {	
@@ -114,12 +114,12 @@ a, p, h1, h2, h3, h4, span {
 }
 
 .header__main-illustration {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	z-index: 1;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
   width: 765px;
-	height: 608px;
+  height: 608px;
   background-image: url(../images/header-image.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -127,13 +127,13 @@ a, p, h1, h2, h3, h4, span {
 }
 
 .header__square-pic {
-	width: 568px;
-	height: 568px;
-	background-color: #2f80ed;
-	position: absolute;
-	top: 64px;
-	right: 0;
-	z-index: 0;  
+  width: 568px;
+  height: 568px;
+  background-color: #2f80ed;
+  position: absolute;
+  top: 64px;
+  right: 0;
+  z-index: 0;  
 }
 
 .header__link {  
@@ -176,7 +176,7 @@ a, p, h1, h2, h3, h4, span {
 
 .table {
   display: flex;
-	flex-direction: column;
+  flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   z-index: 2;
@@ -185,8 +185,8 @@ a, p, h1, h2, h3, h4, span {
 
 .table__two {  
   display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-between;
   width: 100%;
 }
 
@@ -267,9 +267,9 @@ a, p, h1, h2, h3, h4, span {
 .footer__columns {
   margin: 0;
   display: flex;
-	flex-direction: row;
+  flex-direction: row;
   align-items: stretch;
-	justify-content: space-between;
+  justify-content: space-between;
   width: 90%;
 }
 
@@ -285,9 +285,9 @@ a, p, h1, h2, h3, h4, span {
 
 .footer__column-links {
   display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
   margin: 20px 0 16px 0;
 }
 
@@ -319,18 +319,18 @@ a, p, h1, h2, h3, h4, span {
 
 .header_flex {
   display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .description_flex {
   width: 80%;
   min-height: 100px;
   margin: 0;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .content_theme_dark {
