@@ -39,7 +39,7 @@
   background-position: bottom left;
   background-size: 867px 637px;
   background-repeat: no-repeat;
-  height: 890px;
+  min-height: 890px;
   text-align: center;
   position: relative;
   background-color: #f2f2f2;
